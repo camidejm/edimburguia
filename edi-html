@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Edimburguía</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="menu container">
+            <a href="#" class="logo"></a>  
+            <div class="language-switch">
+                <button onclick="changeLanguage('es')">🇪🇸</button>
+                <button onclick="changeLanguage('en')">🇬🇧</button>
+            </div>
+    
+            <!-- Checkbox para abrir/cerrar el menú -->
+            <input type="checkbox" id="menu">
+            <label for="menu" class="menu-label">
+                <img src="menu.png" class="menu-icono" alt="menu">
+            </label>
+    
+            <!-- NAVBAR -->
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Emigrar</a></li>
+                    <li><a href="#">Turismo</a></li>
+                    <li><a href="#">Fotos</a></li>
+                </ul>
+            </nav>
+
+            <div class="search-icon">
+              <i class="fas fa-search"></i>
+            </div>
+        </div>   
+        <div class="header-content container">
+            <h1>Edimburguia 🏴󠁧󠁢󠁳󠁣󠁴󠁿</h1>
+            <p>
+                ¿Alguna vez te has preguntado cómo es vivir en otro país, 
+                su cultura, costumbres o simplemente has estado buscando 
+                un lugar nuevo para conocer? En esta página quiero contarte
+                 sobre una ciudad y un país que no tantos conocen.
+            </p>
+            <p>
+                 <span class="highlight">¡Bienvenido a "el país de Harry Potter"! 🏰</span>
+                    <br>
+                  Escocia tiene una cultura muy rica que me emociona
+                   compartir contigo!
+            </p>
+            </span>
+            <div class="contenedor-btn1">
+            <a href="#" class="btn-1">Quiero saber más</a>
+        </div>
+            </div>
+    </header>
+    
+<section class="coffee">
+    <img class="coffee-img" src="" alt="">
+    <div class="coffee-content container">
+        <h2>Fotos de Edimburgo</h2>
+        <p class="txt-p" >
+           Uno de mis hobbies es 
+           la fotografía y Edimburgo es una ciudad perfecta 
+           para fotografiar. Gracias a sus calles con estilo 
+           vintage, cuando caminas por Edimburgo, descubres 
+           un lugar nuevo que es inevitable no fotografiarlo. 
+           Además, Edimburgo tiene una gran cultura de cafés y 
+           pubs. Justo cuando crees haber encontrado la cafetería
+            o el pub más acogedor y exclusivo, aparece otro que 
+            te sorprende aún más.
+        </p>
+        <div class="coffee-group">
+            <div class="coffee-1">
+                <img src="scottishnnn.jpg" alt="Edimburgo">
+                <h3>The Hub</h3>
+                <p>
+                   Ubicado en el corazón de Edimburgo; Royal Mile. Parece
+                   una iglesia pero es en realidad el centro oficial del famoso
+                   <a href="https://www.edfringe.com/"><span class="edi">Festival Internacional de Edimburgo</span></a>, uno de los eventos
+                   culturales más importantes de todo el mundo celebrado en agosto de cada año
+                </p>
+             </div>
+             <div class="coffee-1">
+                <img src="snow.jpg" alt="Edimburgo nevado">
+                <h3>Día nevado</h3>
+                <p>
+                    Cerca del famoso parque <a href="https://edinburghguide.com/parks/the-meadows"><span class="parque">The Meadows</a></span> era imposible evitar
+                    fotografiar esta escena. Una perfecta combinación de nieve,
+                    estructura gótica y pinos
+                </p>
+             </div>
+             <div class="coffee-1">
+                <img src="cafe.JPG" alt="Cafetería en Edimburgo">
+                <h3>Cosy cafetería</h3>
+                <p>
+                    "Cosy" en referencia a confortable y acogedor. Una de las
+                    cafeterías que los universitarios aman! Muchos van a estudiar,
+                    se organizan  reuniones de intercambio de idiomas y tiene un
+                    diseño particular muy rustico y diferente: <a href="https://www.blackmedicine.co.uk/"><span class="cafe5">Black Medicine Coffee Co</a></span>
+                </p>
+             </div>
+         </div>
+         <a href="#" class="btn-1">Galería de fotos</a>
+    </div>
+
+</section>
+
+<main class="services">
+    <div class="services-content container">
+        <h2>¿Por qué Escocia?</h2>
+        <div class="services-group">
+
+            <div class="services-1">
+                <img src="flight_40dp_DC6906_FILL0_wght400_GRAD0_opsz40.png" alt="Avión">
+                <h3><a href="#" class="btn-2">Turismo</a></h3>
+            </div>
+            <div class="services-1">
+                <img src="travel_explore_40dp_DC6906_FILL0_wght600_GRAD0_opsz40.png" alt="Emigrar">
+                <h3><a href="#" class="btn-2">Emigrar</a></h3>
+            </div>
+            <div class="services-1">
+                <img src="sentiment_satisfied_40dp_DC6906_FILL0_wght600_GRAD0_opsz40.png" alt="Mi experiencia">
+                <h3><a href="#" class="btn-2">Mi experiencia personal</a></h3>
+            </div>
+
+        </div>
+        <p>
+         
+        </p>
+    </div>
+</main>
+
+
+<section class="general">
+    <div class="general-1">
+        <h2>Universidades</h2>
+        <p>
+            Has pensado en estudiar en el exterior y no sabes donde? Ya sea universidad o inglés. 
+            Te cuento como es la calidad de estudio en Edimburgo en base a lo que me he informado, 
+            como es el sistema de estudio, costos y más.
+            
+        </p>
+        <a href="#" class="btn-10" >Información</a>
+    </div>
+    <div class="general-2"></div>
+</section>
+
+<section class="general">
+    <div class="general-3"></div>
+    <div class="general-1">
+        <h2>Cultura</h2>
+        <p>
+            Te cuento sobre la cultura en Escocia; que hacen en su tiempo libre, la  calidad de vida, sus preferencias, idioma, clima y de más!
+        </p>
+        <a href="#" class="btn-10" >Quiero saber!</a>
+    </div>
+</section>
+
+<section class="blog container">
+    <h2>Blog</h2>
+    <p>Enterate de todo acá! 😱</p>
+    <div class="blog-content">
+        <div class="blog-1">
+            <img src="diferentes-2.jpg" alt="Edimburgo">
+            <h3>Youth Mobility Scheme Visa</h3>
+            <p>
+                Gracias a esta visa pude venirme a vivir a Escocia por 2 años, conocer más sobre la cultura, trabajar y en consecuencia aprender inglés 
+                (y si que está difícil el acento😲). Acá te cuento como hacer para aplicar a la visa y y todo relacionado a ella
+             </p>
+        </div>
+        <div class="blog-1">
+            <img src="vaca.jpg" alt="Edimburgo">
+            <h3>Idioma</h3>
+            <p>
+                Que idioma hablan los escoceses? Te cuento más sobre sus idiomas. 
+                Si, hablan más de uno (algunos) sus jergas, expresiones y que tan 
+                dificil es el acento.
+             </p>
+        </div>
+        <div class="blog-1">
+            <img src="scottish.jpg" alt="Edimburgo">
+            <h3>Pub culture</h3>
+            <p>
+                Que es el pub culture? Si vienes a Escocia, no puedes perder la oportunidad 
+                de conocer uno. A la mayoría de los escoceses les gusta ir a los pubs (bares)
+                 y no tiene que ser exactamente a tomar alcohol. Hay pubs con diferentes ambientes. 
+                 Ya que trabajé en uno, te puedo contar mi experiencia y porqué  a los escoceses les gusta tanto
+             </p>
+        </div>
+    </div>
+    <a href="#" class="btn-1">Información</a>
+</section>
+
+
+<footer class="footer">
+    <div class="footer-content container">
+        <div class="link">
+            <h3>Contáctate conmigo</h3>
+            <ul>
+                <li><a href="#">Déjame tu consulta</a></li>
+                <li><a href="#">Servicios de fotografía</a></li>
+                <li><a href="#">Asesoría personalizada</a></li>
+                <li><a href="#">Colaboraciones</a></li>
+                
+            </ul>
+        </div>
+        <div class="link">
+            <h3>Youth Scheme Mobility Visa</h3>
+            <ul>
+                <li><a href="#">Uruguayos</a></li>
+                <li><a href="#">Neozelandeses</a></li>
+                <li><a href="#">Australianos</a></li>
+                <li><a href="#">Canadienses</a></li>
+                <li><a href="#">Indios</a></li>
+                <li><a href="#">Otros países..</a></li>
+            </ul>
+   
+        </div>
+        <div class="link">
+           
+            <ul>
+                <li><a href="#">Politica de privacidad</a></li>
+                <li><a href="#">Terminos de uso</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+<script>
+    function googleTranslateInit() {
+        new google.translate.TranslateElement({
+            pageLanguage: 'es',
+            includedLanguages: 'es,en',
+            layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+            autoDisplay: false
+        }, 'google_translate_element');
+    }
+
+    function changeLanguage(lang) {
+        var select = document.querySelector(".goog-te-combo");
+        if (select) {
+            select.value = lang;
+            select.dispatchEvent(new Event("change"));
+        } else {
+            alert("El traductor de Google aún no está listo. Por favor, intenta de nuevo en unos segundos.");
+        }
+    }
+</script>       
+</body>
+</html>
