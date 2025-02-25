@@ -273,7 +273,7 @@
         color: #c5c5c5;
         margin-bottom: 50px;
         padding: 0 100px;
-        
+
     }
 
     .services-group {
@@ -284,6 +284,7 @@
         padding: 30px 0;
         gap: 30px;
     }
+
     .services-1 {
         padding: 0 100px;
     }
@@ -359,10 +360,12 @@
         flex: 1;
         justify-content: space-between;
     }
-    .blog-1 h3{
+
+    .blog-1 h3 {
         min-height: 60px;
     }
-    .blog-1 p{
+
+    .blog-1 p {
         min-height: 150px;
     }
 
@@ -414,21 +417,25 @@
         cursor: pointer;
         margin-left: 30px;
     }
+
     html {
         scroll-behavior: smooth;
     }
+
     .services {
-        background-attachment: scroll; /* Mejora el rendimiento */
+        background-attachment: scroll;
+        /* Mejora el rendimiento */
     }
+
     body {
         font-family: "Poppins", sans-serif;
         margin: 0;
         padding: 0;
         text-align: center;
     }
-    
+
     /* Botones para cambiar idioma */
-    
+
     /* BotÃ³n principal */
     .btn-1 {
         display: inline-block;
@@ -438,21 +445,21 @@
         text-decoration: none;
         border-radius: 5px;
     }
-    
+
     /* Blog */
     .blog {
         padding: 50px 0;
     }
-    
+
     .blog h2 {
         font-size: 35px;
     }
-    
+
     .blog p {
         font-size: 18px;
         color: #555;
     }
-    
+
     /* Footer */
     .footer {
         background-color: #222;
@@ -460,6 +467,7 @@
         padding: 20px;
         margin-top: 50px;
     }
+
     @media(max-width:991px) {
         .menu label {
             display: block;
@@ -497,7 +505,7 @@
         .header-content h1 {
             font-size: 45px;
             line-height: 100px;
-        }   
+        }
 
         .header-content p {
             padding: 0;
@@ -617,13 +625,16 @@
 
         .search-icon {
             position: absolute;
-            top: 10px; /* Ajusta este valor segÃºn la altura del menÃº */
-            right: 60px; /* Ajusta la distancia desde el borde derecho */
+            top: 10px;
+            /* Ajusta este valor segÃºn la altura del menÃº */
+            right: 60px;
+            /* Ajusta la distancia desde el borde derecho */
             cursor: pointer;
             font-size: 18px;
             color: white;
             z-index: 100;
         }
+
         .menu {
             display: flex;
             align-items: center;
@@ -635,23 +646,28 @@
             right: 0;
             padding: 10px 20px;
         }
+
         .navbar {
             position: absolute;
             top: 60%;
             left: 0;
             width: 100%;
-            background-color: rgba(41,43,49,255) !important;
-            z-index: 1000; 
+            background-color: rgba(41, 43, 49, 255) !important;
+            z-index: 1000;
             flex-direction: column;
-            text-align: left;   
+            text-align: left;
         }
-        #menu:checked ~ .navbar {
+
+        #menu:checked~.navbar {
             display: flex;
-            flex-direction: column; /* Para que los elementos del menÃº sean verticales */
+            flex-direction: column;
+            /* Para que los elementos del menÃº sean verticales */
             align-items: center;
             padding: 10px 0;
         }
+
         .services {
-            background-attachment: scroll; /* Mejora el rendimiento */
+            background-attachment: scroll;
+            /* Mejora el rendimiento */
         }
     }
