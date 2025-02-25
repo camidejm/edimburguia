@@ -8,40 +8,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <title>Edimburguía</title>
     <link rel="stylesheet" href="style.css">
-    <script type="text/javascript">
-        function googleTranslateElementInit() {
-            new google.translate.TranslateElement({
-                pageLanguage: 'es',
-                includedLanguages: 'es,en',
-                layout: google.translate.TranslateElement.InlineLayout.SIMPLE
-            }, 'google_translate_element');
-        }
-    
-        function changeLanguage(lang) {
-            var select = document.querySelector(".goog-te-combo");
-            if (select) {
-                select.value = lang;
-                select.dispatchEvent(new Event("change"));
-            } else {
-                alert("El traductor de Google aún no está listo. Por favor, intenta de nuevo en unos segundos.");
-            }
-        }
-    </script>    
-      <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-
-      
 </head>
 
 <body>
 
-    <header class="header">
+    <header class="header"> 
         <div class="menu container">
             <a href="#" class="logo"></a>
-            <div class="language-switch">
-                <button onclick="changeLanguage('es')">🇪🇸</button>
-                <button onclick="changeLanguage('en')">🇬🇧</button>
-            </div>
-            <div id="google_translate_element" style="display: none;"></div>
             <!-- Checkbox para abrir/cerrar el menú -->
             <input type="checkbox" id="menu">
             <label for="menu" class="menu-label">
@@ -260,7 +233,6 @@
             </div>
         </div>
     </footer>
-
 </body>
 
 </html>
