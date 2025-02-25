@@ -401,15 +401,9 @@
         margin-bottom: 15px;
     }
 
-    .contenedor-btn {
-        display: flex;
-        justify-content: center;
-        /* Alinea los elementos al inicio (izquierda) */
-    }
-
     .fa-search {
         font-size: 20px;
-        /* Tamaño del icono */
+        /* TamaÃ±o del icono */
         color: white;
         /* Color de la lupa */
     }
@@ -434,22 +428,8 @@
     }
     
     /* Botones para cambiar idioma */
-    .language-switch button {
-        background-color: transparent;
-        border: none;
-        color: white;
-        padding: 10px 15px;
-        margin: 0 5px;
-        cursor: pointer;
-        font-size: 15px;
-        border-radius: 30px;
-    }
     
-    .language-switch button:hover {
-        background-color: rgba(236, 217, 217, 0.428);
-    }
-    
-    /* Botón principal */
+    /* BotÃ³n principal */
     .btn-1 {
         display: inline-block;
         padding: 10px 10px;
@@ -617,12 +597,6 @@
             overflow-x: hidden;
         }
 
-        .contenedor-btn {
-            display: flex;
-            justify-content: center;
-            /* Alinea los elementos al inicio (izquierda) */
-        }
-
         .general-1 p {
             position: relative;
             left: 0px;
@@ -643,7 +617,7 @@
 
         .search-icon {
             position: absolute;
-            top: 10px; /* Ajusta este valor según la altura del menú */
+            top: 10px; /* Ajusta este valor segÃºn la altura del menÃº */
             right: 60px; /* Ajusta la distancia desde el borde derecho */
             cursor: pointer;
             font-size: 18px;
@@ -673,7 +647,7 @@
         }
         #menu:checked ~ .navbar {
             display: flex;
-            flex-direction: column; /* Para que los elementos del menú sean verticales */
+            flex-direction: column; /* Para que los elementos del menÃº sean verticales */
             align-items: center;
             padding: 10px 0;
         }
