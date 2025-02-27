@@ -429,9 +429,23 @@
         padding: 0;
         text-align: center;
     }
-
-
-    @media(max-width:991px) {
+    .services {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+          url("diferentes-2.webp");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 100px 0;
+        /* Sin background-attachment por defecto */
+      }
+      
+      /* Para pantallas grandes */
+      @media (min-width: 1024px) {
+        .services {
+          background-attachment: fixed; /* Solo en escritorio */
+        }
+      }
+    @media(max-width:600px) {
         .menu label {
             display: block;
             cursor: pointer;
@@ -495,11 +509,6 @@
             flex-direction: column;
             margin-bottom: 0;
         }
-
-        /* .coffee-img{
-            display: none;
-        } */
-
         .services {
             padding: 30px;
         }
@@ -621,7 +630,7 @@
             text-align: left;
         }
 
-        #menu:checked~.navbar {
+        #menu:checked~.navbar { 
             display: flex;
             flex-direction: column;
             /* Para que los elementos del menÃº sean verticales */
