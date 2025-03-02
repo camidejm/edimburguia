@@ -1,0 +1,135 @@
+.fotos h1 {
+    font-size: 80px;
+    line-height: 70px;
+    color: #0F0F10;
+    text-transform: uppercase;
+    padding: 0 250px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+.fotos-uno img{
+width: 700px;
+float: left;
+margin-bottom: 50px;
+margin-top: 5px;
+}
+.header-fotos{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),
+    rgba(0, 0, 0, 0.7)),
+url(castle.webp);
+background-position: center 50%;
+background-repeat: no-repeat;
+background-size: cover;
+min-height: 10vh;
+display: flex;
+align-items: center;
+gap: 5px;
+justify-content: center;   
+}
+.fotos-dos img{
+    width: 700px;
+    margin-bottom: 50px;
+    margin-top: 5px;
+    min-height: 58.6vh;
+    background-repeat: no-repeat;
+    object-fit: cover; 
+    object-position: right;
+    position: relative;
+    display: inline-block;
+    }
+    .fotos-tres img{
+        width: 300px;
+    }
+    .fotos-cuatro img{
+        width: 300px;
+    }
+    .fotos-cinco img{
+        width: 300px;
+    }
+    .fotos-seis img{
+        width: 300px;
+    }
+    .fotos-siete img{
+        width: 300px;
+    }
+    .fotos-ocho img{
+        width: 300px;
+    }
+.text-1{
+    text-align: center;
+    margin-top: 5px;
+    width: 100%;
+    clear: both;
+    display: block;
+    position: relative;
+    top: -40px;
+    left: 283px;
+    }
+.fotos-container{
+    display: flex;
+    justify-content: space-between;
+}
+.fotos-container2, .fotos-container3, .fotos-container4{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    justify-items: center;
+    margin: 0 auto;
+    object-fit: cover;
+}
+
+.text-2{
+    position: absolute;
+    top: 130px;
+    left: 92%;
+    transform: translateX(-50%);
+    color: black;
+    padding: 5px 10px;
+    font-size: 15px;
+    z-index: 10;
+    white-space: nowrap;
+}
+@media(max-width:900px) {
+    .fotos h1{
+        font-size: 30px;
+        text-align: center;
+        padding: 0px 10px;
+    }
+   .text-1,
+   .text-2{
+    display: none;
+   }
+   img{
+    max-width: 100%;
+    height: auto;
+   }
+   .fotos-uno img{
+    width: 100vw;
+    max-width: none;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+   }
+   .fotos-dos img{  
+    margin-top: 200px;
+   }
+   .fotos-container{
+    display: flex;
+    max-width: 400px;
+    height: auto;
+    display: block;
+   }
+   .fotos-dos img{
+    width: 100vw;
+    max-width: none;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-top: -30px;
+   }
+   .fotos-container2, .fotos-container3, .fotos-container4 {
+    grid-template-columns: repeat(1, 1fr); /* Una columna en pantallas pequeñas */
+   margin-bottom: 20px;
+   margin-top: 25px;
+}
+    }
