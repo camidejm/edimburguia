@@ -39,21 +39,27 @@ justify-content: center;
     }
     .fotos-tres img{
         width: 300px;
+        height: 500px;
     }
     .fotos-cuatro img{
         width: 300px;
+        height: 500px;
     }
     .fotos-cinco img{
         width: 300px;
+        height: 500px;
     }
     .fotos-seis img{
         width: 300px;
+        height: 500px;
     }
     .fotos-siete img{
         width: 300px;
+        height: 500px;
     }
     .fotos-ocho img{
         width: 300px;
+        height: 500px;
     }
 .text-1{
     text-align: center;
@@ -102,6 +108,8 @@ justify-content: center;
    img{
     max-width: 100%;
     height: auto;
+    width: 100%;
+    
    }
    .fotos-uno img{
     width: 100vw;
@@ -110,7 +118,7 @@ justify-content: center;
     display: block;
     margin: 0 auto;
    }
-   .fotos-dos img{  
+   .fotos-dos img{
     margin-top: 200px;
    }
    .fotos-container{
