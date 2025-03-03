@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta name="description" content="Fotos de Escocia y Edimburgo." />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edimburguía fotos</title>
+    <link rel="stylesheet" href="style.min.css">
+
+    <!-- Conexión con Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Carga de Poppins -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+        as="style" onload="this.onload=null;this.rel='stylesheet'">
+
+    <!-- Carga de Great Vibes (✅ Aquí se agrega correctamente) -->
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+
+    <!-- En caso de que el usuario tenga desactivado JavaScript -->
+    <noscript>
+        <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    </noscript>
+
+    <link rel="preload" as="image" href="castle.webp" type="image/webp">
+    <link rel="stylesheet" href="sobre-mi.css">
+</head>
+
+
+<body>
+    <header class="header">
+        <div class="menu container">
+            <!-- Checkbox para abrir/cerrar el menú -->
+            <input type="checkbox" id="menu">
+            <label for="menu" class="menu-label">
+                <img src="menu.png" class="menu-icono" alt="menu">
+            </label>
+            <!-- NAVBAR -->
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="emigrar.html">Emigrar</a></li>
+                    <li><a href="turismo.html">Turismo</a></li>
+                    <li><a href="fotos.html">Fotos</a></li>
+                </ul>
+            </nav>
+            <div class="search-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="20" height="20">
+                    <path fill="currentColor"
+                        d="M505 442.7l-99.7-99.7C426.8 312.1 440 273.7 440 232 440 103.5 342.5 6 214 6S-12 103.5-12 232s97.5 226 226 226c41.7 0 80.1-13.2 110.9-34.7l99.7 99.7c4.7 4.7 10.8 7.1 17 7.1s12.3-2.3 17-7c9.4-9.4 9.4-24.6 0-34zM38 232c0-97.2 79.8-176 176-176s176 78.8 176 176-79.8 176-176 176S38 329.2 38 232z" />
+                </svg>
+            </div>
+        </div>
+    </header>    
+        <section class="mi-nombre">
+             <div class="section-1">
+               <h1>Camila Castro</h1>
+               <p>EL MUNDO ES MUY GRANDE PARA QUEDARSE EN UN SOLO LUGAR✨</p>
+             </div>
+        </section>
+        <section class="section-fotos">
+            <div class="mi-historia">
+                <img src="mama-aeropuerto.webp" alt="Foto con mamá" class="foto-uno" loading="lazy" width="370" height="500">
+
+                    <div class="contenido-historia">
+                        <p>A los 4 años me mudé con mis padres a España, donde viví 4 años. Ese primer cambio me hizo
+                             ver que el mundo era mucho más grande!😊 <br></br>
+                            A los 22 años, decidí viajar sola y comencé con una Working Holiday en Nueva Zelanda🇳🇿, 
+                            donde trabajé, mejoré mi inglés y aprendí a adaptarme. <br></br>
+                            Ahora vivo en Escocia, explorando nuevas oportunidades y aprendiendo programación, 
+                            preparándome para lo que viene: más países, más idiomas y más crecimiento!.
+                        </p>
+                    </div>
+
+                <img src="uru.webp" alt="Nueva Zelanda montaña" class="foto-dos" loading="lazy" width="370" height="500">    
+            </div>
+        </section>
+        <section class="timeline">
+            <h2>Mi Ruta por el Mundo</h2>
+            
+            <div class="timeline-container">
+                <div class="timeline-item">
+                    <span>🇺🇾 <strong>Uruguay</strong> (Nacimiento - 4 años)</span>
+                </div>
+                <div class="timeline-item">
+                    <span>🇪🇸 <strong>España</strong> (4 años - 8 años)</span>
+                </div>
+                <div class="timeline-item">
+                    <span>🇦🇷 🇺🇾 <strong>Argentina</strong> y viajes por <strong>Uruguay</strong> (8 años - 22 años)</span>
+                </div>
+                <div class="timeline-item">
+                    <span>🇪🇸 🇳🇿 <strong>España</strong> y <strong>Nueva Zelanda</strong> (22 años - 24 años)</span>
+                </div>
+                <div class="timeline-item">
+                    <span>🇫🇷 🇧🇪 🇪🇸 🏴󠁧󠁢󠁳󠁣󠁴󠁿 🇫🇮 🇮🇨 🇨🇭 Diferentes partes de <strong>Europa</strong> (24 años)</span>
+                </div>
+                <div class="timeline-item">
+                    <span>🇺🇾 🇦🇷 🇨🇱 Vuelta a <strong>Uruguay</strong>, visita a <strong>Chile</strong> y <strong>Argentina</strong> (24 años - 25 años)</span>
+                </div>
+            </div>
+        
+            <h2>✈️ Aeropuertos</h2>
+            <ul class="airport-list">
+                <li>🇺🇾 Montevideo</li>
+                <li>🇪🇸 Madrid</li>
+                <li>🇪🇸 Tenerife</li>
+                <li>🇨🇴 Bogotá</li>
+                <li>🇵🇪 Lima</li>
+                <li>🇶🇦 Doha</li>
+                <li>🇦🇺 Adelaide</li>
+                <li>🇳🇿 Auckland</li>
+                <li>🇳🇿 Dunedin</li>
+                <li>🇸🇬 Singapore</li>
+                <li>🇫🇷 Paris</li>
+                <li>🇪🇸 Valencia</li>
+                <li>🇬🇧 Londres</li>
+                <li>🏴󠁧󠁢󠁳󠁣󠁴󠁿 Edimburgo</li>
+                <li>🇪🇸 Santiago de Compostela</li>
+                <li>🇫🇮 Rovaniemi</li>
+                <li>🇨🇭 Zurich</li>
+                <li>🇧🇷 Sao Paulo</li>
+                <li>🇩🇪 Frankfurt</li>
+            </ul>
+        </section>
+    <section class="experiencia">
+        <h2>Mi experiencia y lo que me inspiró a viajar</h2>
+        <div class="experiencia-container">
+            <img src="papas.webp" alt="Foto con mis padres">
+           <p>Desde chica siempre tuve claro que el mundo era enorme y que quería salir a explorarlo. Pero más allá de mi curiosidad 
+            por viajar, creo que en parte siempre tuve esa mentalidad porque crecí viendo la historia de mis padres.
+            <br> <br>Siempre admiré a mi padre por haberse ido tan joven a otro país sin nada, en una época sin teléfonos, sin Google Maps, 
+            sin saber bien qué esperar. Se la jugó solo, buscando una vida mejor y una experiencia distinta. <br><br>Trabajó todo lo que hizo falta para que estuviéramos bien, 
+            y siempre me quedó claro que su esfuerzo es lo que nos dio tantas oportunidades.
+            También admiro a mi mamá, porque a los 20 años se fue con una niña de 4 años (yo), a un país lejano, sin teléfono y sin su familia cerca.
+            Y ella es súper familiera, así que sé que no fue fácil. Pero se la bancó, se adaptó y lo hizo funcionar. <br> <br>
+            Crecí con esas historias y creo que, sin darme cuenta, me inspiraron a hacer lo mismo: a no conformarme, a salir de mi zona de confort y a 
+            buscar mi propio camino. <br> <br>Mi primer gran salto fue cuando me fui a Nueva Zelanda con una Working Holiday. Ahí aprendí a adaptarme a cualquier cosa, 
+            trabajé en todo tipo de trabajos y aprendí inglés. <br><br>Ahora estoy en Escocia, en otra etapa de mi vida, aprendiendo programación y preparándome para 
+            lo que viene.
+            Si hay algo que tengo claro es que el mundo es demasiado grande para quedarse en un solo lugar, y que si quiero algo, tengo que ir a buscarlo.</p>
+        </div>
+    </section>
+</body>
