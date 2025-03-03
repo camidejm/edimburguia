@@ -1,0 +1,200 @@
+.header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),
+    rgba(0, 0, 0, 0.7)),
+url(castle.webp);
+background-position: center 50%;
+background-repeat: no-repeat;
+background-size: cover;
+min-height: 10vh;
+display: block;
+align-items: center;
+gap: 5px;
+justify-content: center;   
+aspect-ratio: auto;
+min-height: 10vh ;
+background-size: cover 
+}
+.section-1 h1{
+    color: black;
+    font-family: "great vibes", cursive;
+    font-size: 105px;
+    margin-top: 30px;
+    font-weight: 400;
+}
+.section-1 p{
+    font-family: "poppins", serif;
+    margin-top: -10PX;
+    color: #383535;
+    font-size: 14px;
+}
+
+.mi-historia{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    width: 90%;
+    max-width: 1200px;
+    margin: 50px auto;
+    text-align: center;
+}
+.contenido-historia{
+    max-width: 600px;
+    line-height: 2.4;
+    text-align: center;
+    flex: 1;
+}
+.contenido-historia p{
+font-size: 14px;
+margin-bottom: 15px;
+}
+.foto-uno, .foto-dos{
+    width: 28%;
+    max-width: 370px;
+    height: auto;
+}
+.timeline {
+    text-align: center;
+    margin: 50px auto;
+    width: 80%;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* Contenedor de la línea de tiempo */
+.timeline-container {
+    position: relative;
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Línea de la línea de tiempo */
+.timeline-container::before {
+    content: "";
+    position: absolute;
+    width: 3px;
+    background: black;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Estilos de cada evento */
+.timeline-item {
+    background: #f8f8f8;
+    padding: 10px 20px;
+    border-radius: 8px;
+    width: 40%;
+    margin: 10px 0;
+    position: relative;
+}
+
+/* Alternar alineación */
+.timeline-item:nth-child(odd) {
+    align-self: flex-start;
+    text-align: left;
+}
+
+.timeline-item:nth-child(even) {
+    align-self: flex-end;
+    text-align: right;
+}
+
+/* Puntos en la línea */
+.timeline-item::before {
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background: black;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.timeline-item:nth-child(odd)::before {
+    right: -10px;
+}
+
+.timeline-item:nth-child(even)::before {
+    left: -10px;
+}
+
+/* Lista de Aeropuertos */
+.airport-list {
+    list-style: none;
+    padding: 0;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+.airport-list li {
+    font-size: 18px;
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+.experiencia{
+    background-color: white;
+    padding: 30px;
+    margin: 50px auto;
+    max-width: 800px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.experiencia h2{
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+.experiencia-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.experiencia-container p{
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    max-width: 700px;
+}
+@media(max-width:768px){
+    .section-1 p{
+        font-size: 11px;
+    }
+    .section-1 h1{
+        font-size: 80px;
+    }
+    .mi-historia{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .foto-uno, .foto-dos{
+        width: 40%;
+        max-width: 300px;
+    }
+    .contenido-historia{
+        max-width: 90%;
+    }
+    .experiencia-container img{
+        width: 70%;
+    }
+    .experiencia{
+        width: 90%;
+        padding: 30px;
+        margin: 50px auto;
+        max-width: 800px;
+        text-align: center;
+        border-radius: 10px;
+        box-sizing: border-box;
+    }
+}
+  
