@@ -7,7 +7,7 @@
 .header-turismo{
     background-image: linear-gradient(rgba(0, 0, 0, 0.3),
             rgba(0, 0, 0, 0.8)),
-        url(castle.webp);
+        url(castle-small.webp);
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
