@@ -1,0 +1,167 @@
+.header-universidades {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),
+    rgba(0, 0, 0, 0.7)),
+url(castle.webp);
+background-position: center 50%;
+background-repeat: no-repeat;
+background-size: cover;
+min-height: 10vh;
+display: block;
+align-items: center;
+gap: 5px;
+justify-content: center;   
+aspect-ratio: auto;
+min-height: 10vh ;
+background-size: cover 
+}
+.universidades h2{
+    font-size: 14px;
+}
+.universidades p{
+    font-size: 12px;
+}
+.universidades{
+    background-color: #f8f8f8;
+}
+.universidad:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 25px rgba(233, 157, 5, 0.211);
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.universidad{
+    background: white;
+    padding: 30px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.info-uni h3{
+    margin-top: 70px;
+    font-size: 55px;
+    margin-bottom: 15px;
+}
+.info-uni p{
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 90%;
+    margin: 0 auto;
+}
+.como-funciona{
+text-align: center;
+margin-bottom: 70px;
+}
+.info-uni{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.enfoque{
+    font-size: 20px;
+}
+.metodo ul{
+    line-height: 2;
+}
+.galeria{
+    padding: 50px 0;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+.contenedor-fotos{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.foto{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.foto img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;    
+}
+.foto:hover img{
+    transform: scale(1.1);
+}
+.texto-overlay{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgb(0, 0, 0, 0.6);
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    width: 80%;
+    border-radius: 5px;
+}
+.texto-overlay h3{
+    font-size: 18px;
+    margin: 0;
+}
+.texto-overlay p{
+    font-size: 14px;
+    margin: 5px 0 0;
+}
+.internacional{
+    padding: 50px 0;
+    text-align: center;
+}
+.contenedor-internacional{
+    display: flex;
+}
+.internacional h3{
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.contenedor-internacional{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.contenedor-internacional div{
+    flex: 1;
+    min-width: 250px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    text-align: center;
+}
+@media(max-width:768px) {
+    .universidad{
+       width: 90%;
+       max-width: 350px;
+       margin: 10px 0;
+       margin-bottom: 15px;
+    }
+    .contenedor{
+        flex-direction: column;
+        align-items: center;
+    }
+    .foto:hover img{
+        transform: none;
+    }
+    .universidad:hover{
+        transform: none !important;
+        box-shadow: none !important;
+    }
+    .contenedor, .info-uni{
+        padding: 0 20px;
+    }
+}
