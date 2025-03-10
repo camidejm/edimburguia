@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta name="description" content="Fotos de Escocia y Edimburgo." />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edimburguía blog</title>
+    <link rel="stylesheet" href="style.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+        as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap">
+    </noscript>
+    <link rel="preload" as="image" href="castle.webp" type="image/webp">
+    <link rel="stylesheet" href="blog.css">
+</head>
+
+<body>
+    <header class="header-fotos">
+        <div class="menu container">
+            <!-- Checkbox para abrir/cerrar el menú -->
+            <input type="checkbox" id="menu">
+            <label for="menu" class="menu-label">
+                <img src="menu.png" class="menu-icono" alt="menu">
+            </label>
+            <!-- NAVBAR -->
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="emigrar.html">Emigrar</a></li>
+                    <li><a href="turismo.html">Turismo</a></li>
+                    <li><a href="fotos.html">Fotos</a></li>
+                </ul>
+            </nav>
+            <div class="search-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="20" height="20">
+                    <path fill="currentColor"
+                        d="M505 442.7l-99.7-99.7C426.8 312.1 440 273.7 440 232 440 103.5 342.5 6 214 6S-12 103.5-12 232s97.5 226 226 226c41.7 0 80.1-13.2 110.9-34.7l99.7 99.7c4.7 4.7 10.8 7.1 17 7.1s12.3-2.3 17-7c9.4-9.4 9.4-24.6 0-34zM38 232c0-97.2 79.8-176 176-176s176 78.8 176 176-79.8 176-176 176S38 329.2 38 232z" />
+                </svg>
+            </div>
+        </div>
+    </header>
+    <section class="blog">
+        <div class="blog1">
+            <h1>BLOG</h1>
+            <p>Escocia</p>
+            <div class="imagen-container">
+                <img src="inverness.webp" alt="inverness" loading="lazy" width="900" height="620" loading="lazy">
+                <p class="descripcion">Cómo es vivir en Edimburgo: Lo bueno, lo malo y lo inesperado</p>
+            </div> 
+        </div>
+    </section>
+    <section class="imagenes-pequenas container">
+        <div class="imagen-item">
+            <img src="glasgoww.webp" alt="blog escocia" width="300" height="200" loading="lazy">
+            <p class="titulo-imagen">Guía completa para estudiar en Escocia: Universidades, costos y requisitos</p>
+        </div>
+        <div class="imagen-item">
+            <img src="inverness.webp" alt="blog escocia" width="300" height="200" loading="lazy">
+            <p class="titulo-imagen">Los mejores lugares para visitar en Edimburgo en un fin de semana</p>
+        </div>
+        <div class="imagen-item">
+            <img src="diferentes-2.webp" alt="blog escocia" width="300" height="200" loading="lazy">
+            <p class="titulo-imagen">Cómo emigrar a Escocia: Visas, trabajo y consejos para nuevos inmigrantes</p>
+        </div>
+        <div class="imagen-item">
+            <img src="otono.jpeg" alt="blog escocia" width="300" height="200" loading="lazy">
+            <p class="titulo-imagen">Las 10 diferencias culturales entre Escocia y Latinoamérica que más me impactaron</p>
+        </div>
+    </section>
+    <section class="info-blog">
+        <div class="info-blog1">
+            <h2>Descubre Escocia: Un viaje más allá de Edimburgo</h2>
+            <p>Cuando pensamos en Escocia, normalmente visualizamos Edimburgo con su famoso castillo y calles adoquinadas. 
+                Pero Escocia ofrece mucho más que su capital histórica. Desde las dramáticas montañas de Glencoe hasta las 
+                tranquilas costas de las Islas Hébridas, cada rincón del país cuenta una historia única que espera ser explorada.
+            </p>
+            <p>Mi pasión por Escocia me ha llevado a recorrer cada rincón de este país mágico, descubriendo joyas ocultas como pueblos
+                 pesqueros encantadores en la costa de Fife, montañas imponentes en las Highlands y lagos que parecen sacados de un cuento, 
+                 como Loch Lomond o el misterioso Loch Ness.</p>
+            <p>En mi blog sobre Escocia, comparto estas experiencias personales acompañadas de fotografías cautivadoras e historias auténticas. 
+                Mi objetivo es ofrecer una visión auténtica, profunda y cercana de un país que continuamente sorprende con su diversidad y calidez. 
+                Ya sea caminando por los senderos poco transitados, probando whisky en una destilería histórica o escuchando música tradicional en vivo 
+                en un pub local, cada rincón de Escocia tiene algo especial que contar.</p>     
+            <p>Te invito a explorar conmigo esta tierra mágica, donde cada viaje es una aventura inolvidable.</p>    
+        </div>
+    </section>
+    <section class="imagenes-pequenas-2">
+        <div class="imagen-container2">
+        <div class="imagen-item2">
+            <img src="castillo.jpg" alt="Blog Escocia"  loading="lazy">
+            <p class="titulo-imagen2">Castillos históricos en Escocia</p>
+        </div>
+        <div class="imagen-item2">
+            <img src="senderismo.jpg" alt="Blog Escocia"  loading="lazy">
+            <p class="titulo-imagen2">Senderismo en las Highlands</p>
+        </div>
+        <div class="imagen-item2">
+            <img src="lago-ness.jpg" alt="Blog Escocia"  loading="lazy">
+            <p class="titulo-imagen2">Misterios del Lago Ness</p>
+        </div>
+        <div class="imagen-item2">
+            <img src="playa.jpg" alt="Blog Escocia" loading="lazy">
+            <p class="titulo-imagen2">Playas escondidas en Escocia</p>
+        </div>
+        <div class="imagen-item2">
+            <img src="whisky.jpg" alt="Blog Escocia"  loading="lazy">
+            <p class="titulo-imagen2">Whisky y destilerías escocesas</p>
+        </div>
+        <div class="imagen-item2">
+            <img src="fiesta-escocia.jpg" alt="Blog Escocia"  loading="lazy">
+            <p class="titulo-imagen2">Fiestas tradicionales en Escocia</p>
+        </div>
+        <div class="imagen-item2">
+            <img src="edimburgo.jpg" alt="Blog Escocia"  loading="lazy">
+            <p class="titulo-imagen2">Ciudades con encanto escocés</p>
+        </div>
+        <div class="imagen-item2">
+            <img src="pueblo.jpg" alt="Blog Escocia"  loading="lazy">
+            <p class="titulo-imagen2">Pueblos costeros en Escocia</p>
+        </div>
+    </div>
+        <aside class="sidebar">
+            <img src="memoji.jpg" alt="foto de perfil" class="sidebar-img">
+            <h2 class="sidebar-text">Sobre mi</h2>
+            <p>Soy Camila, viajera y creadora de contenido sobre Escocia. Exploro los rincones mágicos del país y comparto experiencias auténticas.</p>
+        </aside>
+    </section>
+</body>
+<footer class="footer">
+    <div class="footer-content container">
+        <div class="link">
+            <h3>Contáctate conmigo</h3>
+            <ul>
+                <li><a href="#">Déjame tu consulta</a></li>
+                <li><a href="#">Servicios de fotografía</a></li>
+                <li><a href="#">Asesoría personalizada</a></li>
+                <li><a href="#">Colaboraciones</a></li>
+
+            </ul>
+        </div>
+        <div class="link">
+            <h3>Youth Scheme Mobility Visa</h3>
+            <ul>
+                <li><a href="#">Uruguayos</a></li>
+                <li><a href="#">Neozelandeses</a></li>
+                <li><a href="#">Australianos</a></li>
+                <li><a href="#">Canadienses</a></li>
+                <li><a href="#">Indios</a></li>
+                <li><a href="#">Otros países..</a></li>
+            </ul>
+
+        </div>
+        <div class="link">
+
+            <ul>
+                <li><a href="politica.html">Politica de privacidad</a></li>
+                <li><a href="terminos.html">Terminos de uso</a></li>
+            </ul>
+        </div>
+    </div>
+    <p>© 2025 Edimburguía - Todos los derechos reservados.</p>
+</footer>
